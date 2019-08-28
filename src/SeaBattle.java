@@ -51,7 +51,7 @@ public class SeaBattle {
 
         boolean isAlive = true;
 
-        while (isAlive = true) {
+        while (isAlive = true ) {
             String guess = helper.getUserInput("Введите число");
             String result = seaBattle.checkYouself(guess);
             numOfGuesses++;
