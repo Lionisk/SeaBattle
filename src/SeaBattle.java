@@ -49,14 +49,11 @@ public class SeaBattle {
 
         seaBattle.setLocationCells(locations);
 
-        boolean isAlive = true;
-
-        while (isAlive = true ) {
+        while (true) {
             String guess = helper.getUserInput("Введите число");
             String result = seaBattle.checkYouself(guess);
             numOfGuesses++;
             if (result.equals("Потопил")){
-                isAlive = false;
                 System.out.println("Вам потребовалось - " + numOfGuesses +" попыток(и)");
             }
         }
