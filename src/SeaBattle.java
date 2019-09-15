@@ -49,6 +49,7 @@ public class SeaBattle {
 
         seaBattle.setLocationCells(locations);
 
+
         boolean isAlive = true;
 
         while (isAlive = true ) {
